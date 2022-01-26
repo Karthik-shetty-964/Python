@@ -14,7 +14,7 @@ t.speed(10)
 turtle.bgcolor('black')
 
 #make spiral_web
-for x in range(200):
+for x in range(2000):
     t.pencolor(colors[x%6])
     t.width(x/100+1)
     t.forward(x)
